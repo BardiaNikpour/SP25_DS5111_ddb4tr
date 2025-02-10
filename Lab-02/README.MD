@@ -32,3 +32,45 @@ Execute the `init.sh` script to install necessary dependencies:
 ```bash
 ./init.sh
 ```
+## 5. Run the Initialization Script
+Execute the `install_chrome_headless.sh` script to install chrome:
+
+```bash
+./install_chrome_headless.sh
+```
+## 6. test the makefile
+Execute the `make` script to make sure makefile working"
+
+```bash
+make
+```
+## 7. Run the makefile
+Execute the `makefile` to create env:
+
+```bash
+make update
+```
+## 8. Run the tree
+run the tree to see the output:
+
+```bash
+tree <your project-repo> -I env
+```
+
+home/ubuntu/SP25_DS5111_ddb4tr
+├── Assignment2
+│   ├── Assignment2-Screenshot.png
+│   └── SP25_bardia_ddb4tr.pem
+├── Lab-02
+│   ├── google-chrome-stable_current_amd64.deb
+│   ├── init.sh
+│   ├── install_chrome_headless.sh
+│   ├── makefile
+│   ├── makefile.txt
+│   ├── requirements.txt
+│   ├── ygainers.csv
+│   └── ygainers.html
+├── README.md
+├── init.sh
+├── install_chrome_headless.sh
+└── makefile.txt

@@ -56,7 +56,7 @@ run the tree to see the output:
 ```bash
 tree <your project-repo> -I env
 ```
-
+```
 home/ubuntu/SP25_DS5111_ddb4tr
 ├── Assignment2
 │   ├── Assignment2-Screenshot.png
@@ -74,3 +74,4 @@ home/ubuntu/SP25_DS5111_ddb4tr
 ├── init.sh
 ├── install_chrome_headless.sh
 └── makefile.txt
+```

@@ -18,3 +18,6 @@ wjsgainers.html:
 
 wjsgainers.csv: wjsgainers.html
 	python -c "import pandas as pd; raw = pd.read_html('wjsgainers.html'); raw[0].to_csv('wjsgainers.csv')"
+
+ygainers_norm.csv:
+	python3 bin/normalize_csv.py ygainers.csv

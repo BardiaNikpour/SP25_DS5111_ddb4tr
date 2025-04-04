@@ -26,4 +26,4 @@ lint:
 test:
 	make lint
 	pytest -vv tests
-	pytest test_enviroment.py
+	pytest tests/test_environment.py

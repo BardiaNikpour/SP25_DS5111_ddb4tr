@@ -1,4 +1,4 @@
-default:
+idefault:
 	@cat makefile
 
 env:
@@ -22,7 +22,7 @@ wjsgainers.csv: wjsgainers.html
 ygainers_norm.csv:
 	python3 bin/normalize_csv.py ygainers.csv
 lint:
-	source env/bin/activate && pylint bin/normalize_csv.py
+	pylint bin/normalize_csv.py
 test:
 	make lint
-	source env/bin/activate && pytest -vv tests
+	pytest -vv tests

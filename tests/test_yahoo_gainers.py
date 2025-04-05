@@ -4,7 +4,8 @@ sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..")
 sys.path.append('.')
 
 import pytest
-from bin.gainers.yahoo import GainerDownloadYahoo, GainerProcessYahoo
+##from bin.gainers.yahoo import GainerDownloadYahoo, GainerProcessYahoo
+from bin.gainers.yahoo_gainers import GainerDownloadYahoo, GainerProcessYahoo
 
 def test_yahoo_downloader_exists():
     downloader = GainerDownloadYahoo()

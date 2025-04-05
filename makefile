@@ -28,9 +28,10 @@ test:
 	make lint
 	pytest -vv tests
 	pytest tests/test_environment.py
-	PYTHONPATH=. pytest tests/test_wsj.py
-	PYTHONPATH=. pytest tests/test_yahoo.py
+	PYTHONPATH=. pytest tests/test_wsj_gainers.py
+	PYTHONPATH=. pytest tests/test_yahoo_gainers.py
 	PYTHONPATH=. pytest tests/test_factory.py
 
 gainers:
 	PYTHONPATH=. python3 get_gainer.py $(SRC)
+

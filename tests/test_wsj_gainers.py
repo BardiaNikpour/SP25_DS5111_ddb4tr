@@ -4,7 +4,8 @@ sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..")
 sys.path.append('.')
 
 import pytest
-from bin.gainers.wsj import GainerDownloadWSJ, GainerProcessWSJ
+##from bin.gainers.wsj import GainerDownloadWSJ, GainerProcessWSJ
+from bin.gainers.wsj_gainers import GainerDownloadWSJ, GainerProcessWSJ
 
 def test_wsj_downloader_exists():
     downloader = GainerDownloadWSJ()

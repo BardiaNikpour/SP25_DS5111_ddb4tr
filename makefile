@@ -21,6 +21,7 @@ wjsgainers.csv: wjsgainers.html
 
 ygainers_norm.csv:
 	python3 bin/normalize_csv.py ygainers.csv
+
 lint:
 	pylint bin/normalize_csv.py
 	PYTHONPATH=. pylint bin/get_gainer.py

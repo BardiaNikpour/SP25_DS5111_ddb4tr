@@ -1,7 +1,3 @@
-pandas
-lxml
-pylint
-pytest
 absl-py==2.1.0
 accelerate==1.5.2
 aiohappyeyeballs==2.6.1

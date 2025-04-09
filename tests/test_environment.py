@@ -3,7 +3,7 @@ import sys
 import pytest
 
 ALLOWED_OSES = ['linux', 'darwin']
-ALLOWED_PYTHON_VERSIONS = [(3, 10), (3, 11), (3, 12)]
+ALLOWED_PYTHON_VERSIONS = [(3, 10), (3, 11), (3, 12), (3, 13)]
 
 def test_os_is_acceptable():
     os_name = platform.system().lower()

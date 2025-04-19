@@ -1,0 +1,14 @@
+myproject:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      account: rja95216
+      user: ddb4tr@virginia.edu
+      password: DS5111ddb4tr
+      role: DS5111_DBT
+      database: DATA_SCIENCE
+      warehouse: COMPUTE_WH
+      schema: DDB4TR
+      threads: 1
+     

@@ -3,4 +3,7 @@ pytest
 pylint
 lxml
 html5lib
+beautifulsoup4
+dbt-core
+dbt-snowflake
 
